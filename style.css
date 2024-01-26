@@ -1,0 +1,54 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  font-size:62.5%;
+}
+body{
+  background: lightsalmon;
+}
+main{
+  text-align: center;
+  margin-top:30vh;
+  background:white;
+  color:black;
+  max-width:60%;
+  height:40vh;
+  margin:30% auto;
+  padding-top:4%;
+  border-radius:6px;
+}
+h2{
+  font-size:2.5rem;
+  text-transform: uppercase;
+  font-weight:400;
+  font-variant:small-caps;
+  margin-bottom:3%;
+}
+input{
+  padding:2% 4%;
+}
+button{
+  padding:2% 4%;
+  background: darkred;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size:1.7rem;
+  text-transform: uppercase;
+  font-weight:500;
+  
+}
+h3,h4,h5{
+  padding:4% 0 0 0 ;
+  text-transform: uppercase;
+  font-size:2rem;
+  
+}
+img{
+  display:none;
+  width:30%;
+  margin:2% auto;
+}
