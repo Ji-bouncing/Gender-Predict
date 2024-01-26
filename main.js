@@ -18,6 +18,7 @@ function getName(){
       document.querySelector('span').innerText = 'Ooops!'
     }
    document.querySelector('img').style.display = 'block'
+   localStorage.setItem('Name',data.name)
   })
   .catch(err => {
     console.log(`Errr ${err}`)
